@@ -1,0 +1,112 @@
+
+html{
+  scroll-behavior: unset !important;  
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+
+/* =============navbar part start here========== */
+.nav{
+  
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.222);
+
+}
+.nav.fixd_nav{
+    padding: 15px 0;
+    position: fixed;
+    background-color: black;
+}
+.container{
+    margin: 0 auto;
+    width: 1170px;
+
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-wrapper ul{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+   
+}
+.logo h1{
+    font-size: 50px;
+    color: #fff;
+}
+.nav-item li a{
+    color: #fff;
+    font-size: 18px;
+}
+/* ==============navbar part end here============ */
+/* =============banner part start here========== */
+#banner{
+    height: 800px;
+    background-color: purple;
+   padding-top: 100px;
+}
+/* =============banner part end here========== */
+/* ==============about part start here============ */
+#about{
+    height: 800px;
+    background-color: aqua;
+    margin-top: 30px;
+}
+/* =============about part end here========== */
+/* ==============service part start here============ */
+#service{
+    height: 800px;
+    background-color: yellow;
+    margin-top: 30px;
+}
+/* ==============service part end here============ */
+/* =============blog part start here========== */
+#blog{
+    height: 800px;
+    background-color: blue;
+    margin-top: 30px;
+}
+/* ==============blog part end here============ */
+/* =============contact part start here========== */
+#contact{
+    height: 800px;
+    background-color: green;
+    margin-top: 30px;
+}
+/* ==============contact part end here============ */
+.top_to_bottom{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+}
+.top_to_bottom i{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+
+}
